@@ -2,6 +2,8 @@
 
 Created with Cursor and Claude AI, I know nothing about TypeScript
 
+[中文文档](README-zh.md)
+
 ## Overview
 
 This plugin is inspired by and based on the following repositories:
