@@ -1,31 +1,30 @@
-# Stupid Image Process
+# Paste Image Rename Convert Upload
 
-使用Cursor和Claude打造
+Created with Cursor and Claude AI, I know nothing about TypeScript
 
-General by cursor & claude
+## Overview
 
-抄袭自以下代码库
+This plugin is inspired by and based on the following repositories:
 
-1. https://github.com/reorx/obsidian-paste-image-rename
+1. [obsidian-paste-image-rename](https://github.com/reorx/obsidian-paste-image-rename)
+2. [obsidian-paste-png-to-jpeg](https://github.com/musug/obsidian-paste-png-to-jpeg)
 
-2. https://github.com/musug/obsidian-paste-png-to-jpeg
+For detailed usage instructions, please refer to their READMEs.
 
-使用方法见它们的README ：）
+## Why This Plugin?
 
+I created this plugin to address the following needs:
 
-为什么写这个插件
+1. Automatically rename images when pasted into notes - perfectly addressed by [obsidian-paste-image-rename](https://github.com/reorx/obsidian-paste-image-rename)
+2. Compress images to take up less space - well satisfied by [obsidian-paste-png-to-jpeg](https://github.com/musug/obsidian-paste-png-to-jpeg)
+3. Automatically upload renamed images to Cloudflare R2 object storage
 
-我的需求：
+- [obsidian-image-auto-upload-plugin](https://github.com/renmu123/obsidian-image-auto-upload-plugin) + PicGo can meet this need, but I wanted to achieve this without using additional tools like PicGo
 
-1. 图片粘贴到note时，自动重命名https://github.com/reorx/obsidian-paste-image-rename完美满足需求
-2. 图片能够压缩，以占用更少的空间https://github.com/musug/obsidian-paste-png-to-jpeg非常好的满足需求
-3. 在重命名之后能自动上传到cloudflare R2 对象存储
-   1. https://github.com/renmu123/obsidian-image-auto-upload-plugin + picgo 能够满足需求，但是我希望在不使用额外工具的情况下（如picgo)达成目标
+So, with the help of Cursor + Claude, I combined these repository functionalities into a single plugin.
 
-So, 我借助Cursor + Claude 抄袭了以上插件仓库，合并成1个插件。
+## Limitations
 
-Bug一定有，因为我总共只用了半天时间， 并没有充分测试
+There are likely bugs since I only spent half a day on this and haven't thoroughly tested it.
 
-代码可读性和可扩展性也有限，即使我再没加入一个功能都要求Claude按要求优化代码
-
-It's just a STUPID Image Process
+Code readability and extensibility may be limited, even though I asked Claude to optimize the code according to requirements when add new features.
