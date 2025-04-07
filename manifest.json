@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-paste-rename-conv-upload",
+	"name": "Paste rename conv upload",
+	"version": "0.0.1",
+	"minAppVersion": "1.8.9",
+	"description": "Rename pasted images and all the other attchments added to the vault",
+	"author": "iaos",
+	"isDesktopOnly": false
+}
